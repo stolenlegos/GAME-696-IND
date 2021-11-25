@@ -4,18 +4,33 @@ using UnityEngine;
 
 public class PickUp : MonoBehaviour
 {
-    public Transform destination; 
+    public Transform destination;
+    private Rigidbody rb; 
 
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>(); 
+    }
+    
     private void OnMouseDown()
     {
-        GetComponent<Rigidbody>().useGravity = false;
-        transform.position = destination.position;
-        transform.parent = GameObject.Find("Destination").transform; 
+        if (gameObject.tag == "interactable")
+        {
+            GetComponent<Collider>().enabled = false; 
+            rb.useGravity = false;
+            transform.position = destination.position;
+            transform.parent = GameObject.Find("Destination").transform;
+            transform.rotation = new Quaternion(0, 0, 0, 0);
+            rb.velocity = new Vector3(0, 0, 0);
+            //rb.isKinematic = true; 
+        }
     }
 
     private void OnMouseUp()
     {
+        GetComponent<Collider>().enabled = false;
         this.transform.parent = null;
-        GetComponent<Rigidbody>().useGravity = true; 
+        //rb.isKinematic = false;  
+        rb.useGravity = true; 
     }
 }
