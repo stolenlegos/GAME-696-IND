@@ -12,6 +12,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 31c296d1d304cba46874059c7634ef34, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 31c296d1d304cba46874059c7634ef34, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 31c296d1d304cba46874059c7634ef34, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 31c296d1d304cba46874059c7634ef34, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.599844
       objectReference: {fileID: 0}
@@ -53,7 +65,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 31c296d1d304cba46874059c7634ef34, type: 3}
       propertyPath: m_Name
-      value: Pumpkin
+      value: Pumpkin_Outline
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 31c296d1d304cba46874059c7634ef34, type: 3}
       propertyPath: m_TagString
@@ -68,6 +80,11 @@ PrefabInstance:
 --- !u!1 &3980880368058923958 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 31c296d1d304cba46874059c7634ef34, type: 3}
+  m_PrefabInstance: {fileID: 4323319627162011367}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5342252629161007473 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1018664272722485354, guid: 31c296d1d304cba46874059c7634ef34, type: 3}
   m_PrefabInstance: {fileID: 4323319627162011367}
   m_PrefabAsset: {fileID: 0}
 --- !u!54 &8516376213047091180
@@ -112,4 +129,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57e0569939a0c6d4a99cbcb26cdc6a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destination: {fileID: 0}
+--- !u!114 &1274834544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5342252629161007473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bef5cc411a776b24ab4d852b5ecfbb51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noHoverMat: {fileID: 2100000, guid: e136b0641213cd44184d4a166017e726, type: 2}
+  hoverMat: {fileID: 2100000, guid: 30e81c9e927b5d84bababc0766022311, type: 2}
