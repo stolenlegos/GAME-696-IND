@@ -30,6 +30,13 @@ public class PlayerMovement : MonoBehaviour
         {
             speed = startingSpeed;
         }
+        if (Input.GetKeyDown(KeyCode.C)) {
+            controller.height = 2.5f; 
+        }
+
+        if (Input.GetKeyUp(KeyCode.C)) {
+            controller.height = 5.0f; 
+        }
 
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask); 
         if (isGrounded && velocity. y < 0)
