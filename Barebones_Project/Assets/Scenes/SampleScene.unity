@@ -1158,6 +1158,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cup
       objectReference: {fileID: 0}
+    - target: {fileID: 1348853086083086740, guid: c3e72eeaacef0384bab5fa70523b5762, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2bdba6dc7fa68224daf8e4218bb0d3dd, type: 2}
     - target: {fileID: 7202271454713460447, guid: c3e72eeaacef0384bab5fa70523b5762, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1849,15 +1853,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e2c8d88bae73cb1438dd40230edb290c, type: 3}
       propertyPath: m_LocalScale.x
-      value: 22563
+      value: 5.0432053
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e2c8d88bae73cb1438dd40230edb290c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 22563
+      value: 5.0432053
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e2c8d88bae73cb1438dd40230edb290c, type: 3}
       propertyPath: m_LocalScale.z
-      value: 22563
+      value: 5.0432053
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e2c8d88bae73cb1438dd40230edb290c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1865,11 +1869,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e2c8d88bae73cb1438dd40230edb290c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -17.54
+      value: -23.265
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e2c8d88bae73cb1438dd40230edb290c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.56
+      value: 10.54
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e2c8d88bae73cb1438dd40230edb290c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2410,6 +2414,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 31c296d1d304cba46874059c7634ef34, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a916dbdbdaf0d7c41a0d9b98bb3a5aac, type: 2}
     - target: {fileID: 919132149155446097, guid: 31c296d1d304cba46874059c7634ef34, type: 3}
       propertyPath: m_Name
       value: Pumpkin
